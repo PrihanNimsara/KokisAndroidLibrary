@@ -8,13 +8,11 @@ This is Kokis android library. It can be used to minimize the complexity of shar
 
 ## Gradle
 
-'''
-
-repositories \{
-
-   jcenter \(\)
-   
-\}
+> repositories \{
+>
+>   jcenter \(\)
+>   
+> \}
 
 dependencies \{
   
@@ -24,7 +22,7 @@ dependencies \{
     
 \}
 
-'''
+
 
 #### if you using maven use following Maven
 
