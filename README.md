@@ -8,14 +8,16 @@ This is Kokis android library. It can be used to minimize the complexity of shar
 
 
 ## Changelog
+
 - 1.0.0
     - Stable the release with sample code
 
 ## Author
-Personal Website [prihanofficial.com](http://prihanofficial.com).
-Prihan Nimsara, [(iamprihan@gmail.com)]
 
-Checkout my other contributions, [(https://github.com/PrihanNimsara?tab=repositories)]
+Prihan Nimsara, [prihanofficial.com](http://prihanofficial.com)
+
+Checkout my other contributions, https://github.com/PrihanNimsara?tab=repositories
+
 ## License
 
 Copyright 2017 Prihan Nimsara
