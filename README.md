@@ -8,6 +8,15 @@ This is Kokis android library. It can be used to minimize the complexity of shar
 
 ## Gradle
 
+repositories {
+jcenter()
+}
+
+dependencies {
+    ...
+    compile 'com.chootdev:csnackbar:1.1.0'
+}
+
 ## Usage
 
 ## Limitations
