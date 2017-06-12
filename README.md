@@ -6,6 +6,13 @@ This is Kokis android library. It can be used to minimize the complexity of shar
 
 ![alt tag](https://user-images.githubusercontent.com/29063580/27034382-23bcc2ca-4f9b-11e7-8189-f8ddada96a20.jpg)
 
+## Gradle
+
+## Usage
+
+## Limitations
+
+- Currently min SDK is set to 16
 
 ## Changelog
 
