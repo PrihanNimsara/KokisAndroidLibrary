@@ -15,21 +15,21 @@ repositories \{
 \}
 
 dependencies \{
-     
-     ...
-     
-     compile 'com.prihanofficial:kokis:1.0.0'
-     
+  
+  ...
+ 
+ compile 'com.prihanofficial:kokis:1.0.0'
+    
 \}
 
 #### if you using maven use following Maven
 
-<dependency>
-  <groupId>com.prihanofficial</groupId>
-  <artifactId>kokis</artifactId>
-  <version>1.0.0</version>
-  <type>pom</type>
-</dependency>
+\< dependency \>
+  \< groupId \> com.prihanofficial \<\/groupId\>
+  \<artifactId\>kokis\<\/artifactId\>
+  \<version\>1.0.0\<\/version\>
+  \<type\>pom\<\/type\>
+\<\/dependency\>
 
 ## Usage
 
