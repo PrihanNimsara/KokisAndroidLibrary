@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="prihanofficial.com.kokisandroidlibrary.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textColor="@color/colorText"
+    android:textSize="40dp"
+    android:textAllCaps="false"
+    android:text="Hi , My name is Prihan Nimsara,I create a this android libarary for sharedpreferences. Thank You very much and stay with me."/>
+
+</LinearLayout>
