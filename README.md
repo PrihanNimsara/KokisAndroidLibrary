@@ -2,7 +2,7 @@
 This library for android sharedpreferences .
 ![alt tag](https://user-images.githubusercontent.com/29063580/27034382-23bcc2ca-4f9b-11e7-8189-f8ddada96a20.jpg)
 ### Author
-
+Personal Website [prihanofficial.com](http://prihanofficial.com/).
 Prihan Nimsara, [(iamprihan@gmail.com)]
 
 Checkout my other contributions, [(https://github.com/PrihanNimsara?tab=repositories)]
