@@ -8,14 +8,28 @@ This is Kokis android library. It can be used to minimize the complexity of shar
 
 ## Gradle
 
-repositories {
-jcenter()
-}
+repositories \{
 
-dependencies {
-    ...
-    compile 'com.chootdev:csnackbar:1.1.0'
-}
+   jcenter \(\)
+   
+\}
+
+dependencies \{
+     
+     ...
+     
+     compile 'com.prihanofficial:kokis:1.0.0'
+     
+\}
+
+#### if you using maven use following Maven
+
+<dependency>
+  <groupId>com.prihanofficial</groupId>
+  <artifactId>kokis</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
 
 ## Usage
 
