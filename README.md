@@ -1,7 +1,12 @@
 # KokisAndroidLibrary
 This library for android sharedpreferences .
 
-#License
+### Author
+
+Prihan Nimsara, [(iamprihan@gmail.com)]
+
+Checkout my other contributions, [(https://github.com/PrihanNimsara?tab=repositories)]
+### License
 
 Copyright 2017 Prihan Nimsara
 
