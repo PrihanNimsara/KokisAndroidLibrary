@@ -1,6 +1,10 @@
 # Kokis
 This library for android sharedpreferences .
 ![alt tag](https://user-images.githubusercontent.com/29063580/27034382-23bcc2ca-4f9b-11e7-8189-f8ddada96a20.jpg)
+### Changelog
+- 1.0.0
+    - Stable the release with sample code
+
 ### Author
 Personal Website [prihanofficial.com](http://prihanofficial.com/).
 Prihan Nimsara, [(iamprihan@gmail.com)]
