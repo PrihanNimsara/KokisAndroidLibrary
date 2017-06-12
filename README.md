@@ -25,10 +25,15 @@ dependencies \{
 #### if you using maven use following Maven
 
 \< dependency \>
+
   \< groupId \> com.prihanofficial \<\/groupId\>
+  
   \<artifactId\>kokis\<\/artifactId\>
+  
   \<version\>1.0.0\<\/version\>
+  
   \<type\>pom\<\/type\>
+  
 \<\/dependency\>
 
 ## Usage
