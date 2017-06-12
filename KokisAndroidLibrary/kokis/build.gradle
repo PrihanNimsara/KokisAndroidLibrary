@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'KokisAndroidLibraryRepository'
+    bintrayRepo = 'maven'
     bintrayName = 'kokis'
 
     publishedGroupId = 'prihanofficial.com'
