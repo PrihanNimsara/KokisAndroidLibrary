@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'KokisAndroidLibraryRepository'
+    bintrayName = 'kokis'
+
+    publishedGroupId = 'prihanofficial.com'
+    libraryName = 'Kokis'
+    artifact = 'kokis'
+
+    libraryDescription = 'A libarary for android sharedpreferences'
+
+    siteUrl = 'https://github.com/PrihanNimsara/KokisAndroidLibrary'
+    gitUrl = 'https://github.com/PrihanNimsara/KokisAndroidLibrary.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'prihannimsara'
+    developerName = 'Prihan Nimsara'
+    developerEmail = 'iamprihan@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -29,26 +53,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'kokis'
 
-    publishedGroupId = 'prihanofficial.com.kokis'
-    libraryName = 'Kokis'
-    artifact = 'kokis'
-
-    libraryDescription = 'A libarary for android sharedpreferences'
-
-    siteUrl = 'https://github.com/PrihanNimsara/KokisAndroidLibrary'
-    gitUrl = 'https://github.com/PrihanNimsara/KokisAndroidLibrary.git'
-
-    libraryVersion = '1.1.0'
-
-    developerId = 'prihannimsara'
-    developerName = 'Prihan Nimsara'
-    developerEmail = 'iamprihan@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
