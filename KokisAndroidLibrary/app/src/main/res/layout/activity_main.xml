@@ -18,6 +18,6 @@
     android:textColor="@color/colorText"
     android:textSize="40dp"
     android:textAllCaps="false"
-    android:text="Hi , My name is Prihan Nimsara,I create a this android libarary for sharedpreferences. Thank You very much and stay with me."/>
+    android:text="Hi , My name is Prihan Nimsara, I create a this android libarary for sharedpreferences. Thank You very much and stay with me."/>
 
 </LinearLayout>
