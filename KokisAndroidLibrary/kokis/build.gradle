@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/PrihanNimsara/KokisAndroidLibrary'
     gitUrl = 'https://github.com/PrihanNimsara/KokisAndroidLibrary.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.1.0'
 
     developerId = 'prihannimsara'
     developerName = 'Prihan Nimsara'

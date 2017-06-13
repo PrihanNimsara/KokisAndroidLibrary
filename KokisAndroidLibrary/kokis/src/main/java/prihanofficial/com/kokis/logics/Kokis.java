@@ -158,7 +158,7 @@ public final class Kokis {
         return getSharedPreferencesObject().getFloat(key, defaultValue);
     }
 
-    public static boolean kgetKokisBoolean(String key, boolean defaultValue) {
+    public static boolean getKokisBoolean(String key, boolean defaultValue) {
         return getSharedPreferencesObject().getBoolean(key, defaultValue);
     }
 
