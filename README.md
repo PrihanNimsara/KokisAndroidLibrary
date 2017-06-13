@@ -23,7 +23,7 @@ repositories{
  }
 ```
 
-##### if you using maven use following Maven
+### if you using maven use following Maven
 
 ```
 <dependency>
@@ -33,6 +33,9 @@ repositories{
   <type>pom</type>
 </dependency>
 ```
+
+After setup installing lib to your project you just need only to call it using just few lines of code. It will return you a string with the results.
+
 ## Usage
 
 ## Limitations
@@ -41,8 +44,10 @@ repositories{
 
 ## Changelog
 
-- 1.0.0
+- 1.1.0
     - Stable the release with sample code
+- 1.0.0
+    - Initial releasee
 
 ## Author
 
