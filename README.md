@@ -23,7 +23,7 @@ repositories{
  }
 ```
 
-### if you using maven use following Maven
+###### if you using maven use following Maven
 
 ```java
 <dependency>
@@ -38,7 +38,7 @@ After setup installing lib to your project you just need only to call it using j
 
 ## Usage
 
-To use Kokis Android Libarary
+###### To use Kokis Android Libarary
 
 ```java
 Kokis.setContext(this)
@@ -48,7 +48,7 @@ Kokis.setContext(this)
                 .build();
 ```
 
-This contain multiple pre-defined Modes.
+###### This contain multiple pre-defined Modes.
 
 ```java
 Mode.PRIVATE         // By setting this mode, the file can only be accessed using calling application
@@ -57,14 +57,14 @@ Mode.WORLD_WRITEABLE // This mode allow other application to write the preferenc
 Mode.MULTI_PROCESS   // This method will check for modification of preferences even if the sharedpreference instance has already been loaded
 ```
 
-This contain multiple pre-defined UserDefaults.
+###### This contain multiple pre-defined UserDefaults.
 
 ```java
 UserDefault.YES      // Libarary name get as a sharedpreference name 
 UserDefault.NO       // User given name get as a sharedpreference name
 ```
 
-After initialization, you can use simple one-line methods to save values to the Kokis anywhere in your app, such as:
+###### After initialization, you can use simple one-line methods to save values to the Kokis anywhere in your app, such as:
 
 ```java
 Kokis.setKokisByteArray(key, byteArray);
@@ -77,7 +77,7 @@ Kokis.setKokisBoolean(key, boolean);
 Kokis.setKokisString(key, String);
 ```
 
-Retrieving data from the Kokis can be as simple as:
+###### Retrieving data from the Kokis can be as simple as:
 
 ```java
 Kokis.getKokisByteArray(key, String);
@@ -90,7 +90,7 @@ Kokis.getKokisBoolean(key, boolean);
 Kokis.getKokisString(key, String);
  ```
 
-Delete data from the Kokis can be as simple as;
+###### Delete data from the Kokis can be as simple as;
 
 ```java
 Kokis.deleteKokisKey(key);
