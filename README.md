@@ -2,7 +2,7 @@
 
 
 
-This is Kokis android library. It can be used to minimize the complexity of sharedpreferences and to store and retrieve data in the android application in a simpler way. This library will make your code neat.And yes it will make your code shorter compared to what you get from using sharedperfernces.Remember this is developed using sharedpreferences and it is a library which makes programming easier.
+This is Kokis android library. It can be used to minimize the complexity of sharedpreferences and to store and retrieve data in the android application in a simpler way. This library will make your code neat and yes it will make your code shorter compared to what you get from using sharedperfernces.Remember this is developed using sharedpreferences and it is a library which makes programming easier.
 
 
 
@@ -10,13 +10,13 @@ This is Kokis android library. It can be used to minimize the complexity of shar
 
 ## Gradle
 
-```
+```java
 repositories{
    jcenter()
  }
 ```
 
-```
+```java
  dependencies {
    ...
    compile 'com.prihanofficial:kokis:1.0.0'
@@ -25,7 +25,7 @@ repositories{
 
 ### if you using maven use following Maven
 
-```
+```java
 <dependency>
   <groupId>com.prihanofficial</groupId>
   <artifactId>kokis</artifactId>
@@ -38,6 +38,65 @@ After setup installing lib to your project you just need only to call it using j
 
 ## Usage
 
+To use Kokis Android Libarary
+
+```java
+Kokis.setContext(this)
+                .setSharedPreferencesName(getPackageName())
+                .setMode(Mode.PRIVATE)
+                .setUseDefaultSharedPreference(UserDefault.NO)
+                .build();
+```
+
+This contain multiple pre-defined Modes.
+
+```java
+Mode.PRIVATE         // By setting this mode, the file can only be accessed using calling application
+Mode.WORLD_READABLE  // This mode allow other application to read the preferences
+Mode.WORLD_WRITEABLE // This mode allow other application to write the preferences
+Mode.MULTI_PROCESS   // This method will check for modification of preferences even if the sharedpreference instance has already been loaded
+```
+
+This contain multiple pre-defined UserDefaults.
+
+```java
+UserDefault.YES      // Libarary name get as a sharedpreference name 
+UserDefault.NO       // User given name get as a sharedpreference name
+```
+
+After initialization, you can use simple one-line methods to save values to the Kokis anywhere in your app, such as:
+
+```java
+Kokis.setKokisByteArray(key, byteArray);
+Kokis.setKokisShort(key, short);
+Kokis.setKokisInt(key, int);
+Kokis.setKokisLong(key, loang);
+Kokis.setKokisFloat(key, float);
+Kokis.setKokisDouble(key, double);
+Kokis.setKokisBoolean(key, boolean);
+Kokis.setKokisString(key, String);
+```
+
+Retrieving data from the Kokis can be as simple as:
+
+```java
+Kokis.getKokisByteArray(key, String);
+Kokis.getKokisShort(key, String);
+Kokis.getKokisInt(key, int);
+Kokis.getKokisLong(key, long);
+Kokis.getKokisFloat(key, float);
+Kokis.getKokisDouble(key, String);
+Kokis.getKokisBoolean(key, boolean);
+Kokis.getKokisString(key, String);
+ ```
+
+Delete data from the Kokis can be as simple as;
+
+```java
+Kokis.deleteKokisKey(key);
+Kokis.clearAllKokisData();
+```
+
 ## Limitations
 
 - Currently min SDK is set to 16
@@ -47,7 +106,7 @@ After setup installing lib to your project you just need only to call it using j
 - 1.1.0
     - Stable the release with sample code
 - 1.0.0
-    - Initial releasee
+    - Initial release
 
 ## Author
 
