@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region Clear data from sharedpreferences
-        Kokis.deleteKokisKey("MyFirstInt");
+        Kokis.deleteKokisKey("MyFirstString");
         Kokis.clearAllKokisData();
         //endregion
 
