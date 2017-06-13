@@ -1,28 +1,27 @@
 # Kokis                  ![alt tag](https://api.bintray.com/packages/prihannimsara/KokisRepository/kokis/images/download.svg)
 
-'''
+
 
 This is Kokis android library. It can be used to minimize the complexity of sharedpreferences and to store and retrieve data in the android application in a simpler way. This library will make your code neat.And yes it will make your code shorter compared to what you get from using sharedperfernces.Remember this is developed using sharedpreferences and it is a library which makes programming easier.
 
-'''
+
 
 ![alt tag](https://user-images.githubusercontent.com/29063580/27034382-23bcc2ca-4f9b-11e7-8189-f8ddada96a20.jpg)
 
 ## Gradle
 
-> repositories\{
->
-> jcenter\(\)
->
->\}
+```
+repositories{
+   jcenter()
+ }
+```
 
-> dependencies \{
->  
-> ...
-> 
-> compile \'com.prihanofficial\:kokis\:1.\0\.0\'
->    
->\}
+```
+ dependencies {
+   ...
+   compile \'com.prihanofficial\:kokis\:1.\0\.0\'
+ }
+```
 
 ##### if you using maven use following Maven
 
