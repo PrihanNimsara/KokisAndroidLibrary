@@ -42,6 +42,8 @@ After setup installing lib to your project you just need only to call it using j
 
 #### To use Kokis Android Libarary
 
+Add this code segment inside a your Application class or Activity class
+
 ```java
 Kokis.setContext(this)
                 .setSharedPreferencesName(getPackageName())
