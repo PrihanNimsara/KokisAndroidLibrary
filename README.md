@@ -103,7 +103,7 @@ Kokis.clearAllKokisData();
 
 ## Limitations
 
-- Currently min SDK is set to 16
+- Currently min SDK is set to 17
 
 ## Changelog
 
